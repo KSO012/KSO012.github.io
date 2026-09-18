@@ -297,3 +297,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+<!-- Automatic Publication Count -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  // 논문 개수 계산
+  const international = document.querySelectorAll(
+    "#international .journal-paper"
+  ).length;
+
+  const domestic = document.querySelectorAll(
+    "#domestic .journal-paper"
+  ).length;
+
+  const total = international + domestic;
+
+  // 상단 통계 박스
+  const stats = document.querySelectorAll(
+    ".journal-stats .journal-stat strong"
+  );
+
+  if (stats.length >= 3) {
+    stats[0].textContent = String(total).padStart(2, "0");
+    stats[1].textContent = String(international).padStart(2, "0");
+    stats[2].textContent = String(domestic).padStart(2, "0");
+  }
+
+});
+</script>
