@@ -54,11 +54,15 @@ permalink: /about/
           </p>
 
           <p class="cv-degree">
-            Master's Degree
+            Master of Science Student
           </p>
 
           <p class="cv-detail">
-            Department of Information and Statistics
+            Graduate School
+          </p>
+
+          <p class="cv-detail">
+            Information and Statistics
           </p>
 
         </div>
@@ -87,11 +91,11 @@ permalink: /about/
           </p>
 
           <p class="cv-degree">
-            Bachelor's Degree
+            Bachelor of Engineering
           </p>
 
           <p class="cv-detail">
-            College of Software and Digital Healthcare
+            College of Software and Digital Healthcare Convergence
           </p>
 
           <p class="cv-detail">
