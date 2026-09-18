@@ -53,6 +53,7 @@ permalink: /journal/
       <span>2 Papers</span>
     </div>
 
+    <!-- 2026 -->
     <div class="journal-year-group">
 
       <h3 class="journal-year">2026</h3>
@@ -241,7 +242,7 @@ permalink: /journal/
         </p>
     
         <p class="journal-name">
-          한국차세대컴퓨팅학회 논문지, 2025 6
+          한국차세대컴퓨팅학회 논문지, 2025 06
         </p>
     
       </article>
