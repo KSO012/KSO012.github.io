@@ -241,7 +241,7 @@ permalink: /journal/
         </p>
     
         <p class="journal-name">
-          한국차세대컴퓨팅학회 논문지, 2025
+          한국차세대컴퓨팅학회 논문지, 2025 6
         </p>
     
       </article>
