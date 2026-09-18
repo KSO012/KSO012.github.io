@@ -15,7 +15,6 @@ permalink: /about/
   <!-- Education Heading -->
   <div class="about-section-heading">
     <h2>Education</h2>
-    <p>Academic background and educational achievements.</p>
   </div>
 
     <!-- Master's Degree -->
