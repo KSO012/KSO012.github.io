@@ -6,9 +6,8 @@ permalink: /journal/
 ---
 
 <section class="page-intro">
-  <div class="eyebrow">PUBLICATIONS</div>
+  <div class="eyebrow">PUBLICATION</div>
   <h1>Journal</h1>
-  <p>Peer-reviewed journal publications and research articles.</p>
 </section>
 
 <section class="journal-page">
@@ -62,7 +61,11 @@ permalink: /journal/
         </div>
 
         <h4>
-          Personalized Disease Prediction Framework based on Genomic Variants and Disease Histories using Deep Embeddings and Alignment-based Process Conformance Checking
+          <a href="https://www.nature.com/articles/s41598-026-66283-w"
+             target="_blank"
+             rel="noopener noreferrer">
+            Personalized Disease Prediction Framework based on Genomic Variants and Disease Histories using Deep Embeddings and Alignment-based Process Conformance Checking
+          </a>
         </h4>
 
         <p class="journal-authors">
@@ -86,7 +89,11 @@ permalink: /journal/
         </div>
 
         <h4>
-          Clinical Text Embeddings: A Systematic Review of Methods, Applications, and Future Directions
+          <a href="https://www.nature.com/articles/s41598-026-66283-w"
+             target="_blank"
+             rel="noopener noreferrer">
+            Clinical Text Embeddings: A Systematic Review of Methods, Applications, and Future Directions
+          </a>
         </h4>
 
         <p class="journal-authors">
