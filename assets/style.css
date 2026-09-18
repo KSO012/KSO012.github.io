@@ -291,3 +291,21 @@ html {
   padding-top: 20px;
   margin-top: 20px;
 }
+
+
+/* =========================================
+   ABOUT PAGE
+========================================= */
+
+.about-name-block {
+  margin-bottom: 18px;
+}
+
+.about-name-block h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #263f4b;
+}
