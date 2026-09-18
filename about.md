@@ -37,8 +37,7 @@ permalink: /about/
       <article class="cv-education">
 
         <div class="cv-date">
-          <strong>2025 Mar -</strong>
-          <span>Present</span>
+          <strong>2025 Mar - Present</strong>
         </div>
 
         <div class="cv-education-content">
