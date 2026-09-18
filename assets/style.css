@@ -251,23 +251,27 @@ html {
 }
 
 
-/* Journal Search Hover Animation */
+/* Search box animation */
 
-.journal-search input {
-  transition: all 0.2s ease;
-  box-sizing: border-box;
+#journal-search {
+  transition: 
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-/* 마우스를 올렸을 때 */
-.journal-search input:hover {
-  border-color: #416a79;
-  background: #eaf0f2;
+#journal-search:hover {
   transform: translateY(-3px);
+  background-color: #eaf0f2;
+  border-color: #416a79;
+  box-shadow: 0 4px 12px rgba(41, 75, 91, 0.08);
 }
 
-/* 검색창을 클릭했을 때 */
-.journal-search input:focus {
-  border-color: #416a79;
-  background: #ffffff;
+#journal-search:focus {
   transform: translateY(-3px);
+  background-color: #ffffff;
+  border-color: #416a79;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(41, 75, 91, 0.08);
 }
