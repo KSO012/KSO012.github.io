@@ -144,9 +144,9 @@
   padding: 4px 9px;
 }
 
-.journal-badges .highlight.orange {
-  color: #a65100;
-  background: #fff0df;
+.journal-badges .highlight.yellow {
+  color: #8a6500;
+  background: #fff4cc;
 }
 
 .journal-badges .highlight.blue {
