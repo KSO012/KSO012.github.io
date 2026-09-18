@@ -5,19 +5,18 @@ nav: about
 permalink: /about/
 ---
 
+<section class="page-intro">
+  <div class="eyebrow">ABOUT ME</div>
+  <h1>About</h1>
+</section>
+
 <div class="about-page">
 
-  <!-- Page Header -->
-  <header class="about-heading">
-    <span class="about-eyebrow">ABOUT ME</span>
-    <h1>About<span>.</span></h1>
-  </header>
-
   <!-- Name -->
-  <section class="about-name">
+  <div class="about-name">
     <h2>Seon Kim</h2>
-  </section>
-  
+  </div>
+
   <!-- Education Heading -->
   <div class="about-section-heading">
     <h2>Education</h2>
