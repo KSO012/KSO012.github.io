@@ -24,13 +24,13 @@ permalink: /journal/
     <!-- International: 클릭 시 해당 섹션으로 이동 -->
     <a href="#international" class="journal-stat journal-stat-link">
       <strong>02</strong>
-      <span>International Journal</span>
+      <span>International Journal Papers</span>
     </a>
   
     <!-- Domestic: 클릭 시 해당 섹션으로 이동 -->
     <a href="#domestic" class="journal-stat journal-stat-link">
       <strong>00</strong>
-      <span>Domestic Journal</span>
+      <span>Domestic Journal Papers</span>
     </a>
   
   </div>
