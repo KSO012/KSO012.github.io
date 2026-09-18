@@ -322,6 +322,14 @@ document.addEventListener("DOMContentLoaded", function () {
     stats[0].textContent = String(total).padStart(2, "0");
     stats[1].textContent = String(international).padStart(2, "0");
     stats[2].textContent = String(domestic).padStart(2, "0");
+  
+    // Domestic 박스의 단수/복수 자동 변경
+    const domesticLabel = stats[2].parentElement.querySelector("span");
+  
+    if (domesticLabel) {
+      domesticLabel.textContent =
+        "Domestic Journal " + (domestic === 1 ? "Paper" : "Papers");
+    }
   }
 
   // Update section counts
