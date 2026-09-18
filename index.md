@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="hero">
-  <div class="eyebrow">SEON KIM · PERSONAL WEBSITE</div>
+  <div class="eyebrow">SEON KIM · PERSONAL RESEARCH PORTFOLIO WEBSITE</div>
   <h1>배운 것을 만들고,<br>만든 것을 기록합니다.</h1>
   <p class="lead">개발 프로젝트와 공부한 내용을 한곳에 모았습니다.</p>
   <div class="hero-links"><a href="{{ '/projects/' | relative_url }}">프로젝트 보기 ↗</a><a href="{{ '/blog/' | relative_url }}">글 읽기 ↗</a></div>
