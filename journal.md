@@ -67,7 +67,7 @@ permalink: /journal/
         </div>
 
         <h4>
-          <a href="https://www.sciencedirect.com/science/article/pii/S1386505626002455?casa_token=HjUeXRP-E7sAAAAA:q5DS4EaI1kxrGcbWSBPSmYNkiE3hFOiHoiEtveggggJmrbO4XI9jFS6iCWbyEK1A58Rawq8T"
+          <a href="https://doi.org/10.1016/j.ijmedinf.2026.106505"
              target="_blank"
              rel="noopener noreferrer">
             Clinical Text Embeddings: A Systematic Review of Methods, Applications, and Future Directions
@@ -93,7 +93,7 @@ permalink: /journal/
         </div>
 
         <h4>
-          <a href="https://www.nature.com/articles/s41598-026-66283-w"
+          <a href="https://doi.org/10.1038/s41598-026-66283-w"
              target="_blank"
              rel="noopener noreferrer">
             Personalized Disease Prediction Framework based on Genomic Variants and Disease Histories using Deep Embeddings and Alignment-based Process Conformance Checking
@@ -134,7 +134,7 @@ permalink: /journal/
         </p>
       
         <p class="journal-name">
-          Investigative Magnetic Resonance Imaging, 2026
+          Investigative Magnetic Resonance Imaging, 2026 Mar
         </p>
       
       </article>
