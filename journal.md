@@ -130,7 +130,7 @@ permalink: /journal/
         <p class="journal-authors">
           Yura Jeong, Daehyun Kwon,
           <strong>Se-On Kim</strong>,
-          Ga-Hyeon Kim, Min-Seo Park, Yoon-Chul Kim
+          Ga-Hyeon Kim, Min-Seo Park, Yoon-Chul Kim*
         </p>
       
         <p class="journal-name">
@@ -162,7 +162,7 @@ permalink: /journal/
         </h4>
     
         <p class="journal-authors">
-          <strong>Se-On Kim</strong>, Yoon-Chul Kim
+          <strong>Se-On Kim</strong>, Yoon-Chul Kim*
         </p>
     
         <p class="journal-name">
@@ -195,7 +195,7 @@ permalink: /journal/
         </h4>
     
         <p class="journal-authors">
-          <strong>Se-On Kim</strong>, Yoon-Chul Kim
+          <strong>Se-On Kim</strong>, Yoon-Chul Kim*
         </p>
     
         <p class="journal-name">
