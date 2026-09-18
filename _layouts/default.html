@@ -19,7 +19,10 @@
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="{{ '/' | relative_url }}">Seon Kim<span class="brand-dot">.</span></a>
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img src="{{ '/assets/favicon.png' | relative_url }}" alt="" class="brand-logo">
+        <span>Seon Kim<span class="brand-dot">.</span></span>
+      </a>
       <nav aria-label="주 메뉴">
         <a href="{{ '/research/' | relative_url }}" {% if page.nav == 'research' %}aria-current="page"{% endif %}>Research</a>
         <a href="{{ '/journal/' | relative_url }}" {% if page.nav == 'journal' %}aria-current="page"{% endif %}>Journal</a>
