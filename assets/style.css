@@ -360,6 +360,7 @@ html {
   border-left: 1px solid #d4dfe0;
 }
 
+/* 기본 동그라미: 회색 */
 .cv-education-content::before {
   content: "";
   position: absolute;
@@ -368,7 +369,12 @@ html {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: #527d7b;
+  background: #9aa5ae;
+}
+
+/* 첫 번째 학력(진행 중): 초록색 */
+.cv-education:first-child .cv-education-content::before {
+  background: #27834e;
 }
 
 .cv-education:last-child .cv-education-content {
@@ -388,8 +394,8 @@ html {
 }
 
 .cv-status.current {
-  color: #3c6a66;
-  background: #e7f0ef;
+  color: #166534;
+  background: #ddf5e5;
 }
 
 .cv-status.completed {
