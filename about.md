@@ -69,7 +69,7 @@ permalink: /about/
           </p>
 
           <p class="cv-degree">
-            Master of Science Student
+            Master of Science's Degree
           </p>
 
           <p class="cv-detail">
@@ -77,7 +77,7 @@ permalink: /about/
           </p>
 
           <p class="cv-detail">
-            Information and Statistics
+            Department of Information and Statistics
           </p>
 
         </div>
@@ -105,7 +105,7 @@ permalink: /about/
           </p>
 
           <p class="cv-degree">
-            Bachelor of Engineering
+            Bachelor of Engineering's Degree
           </p>
 
           <p class="cv-detail">
@@ -113,7 +113,7 @@ permalink: /about/
           </p>
 
           <p class="cv-detail">
-            Digital Healthcare / Digital Healthcare Advanced
+            Division of Digital Healthcare / Digital Healthcare Advanced
           </p>
 
         </div>
