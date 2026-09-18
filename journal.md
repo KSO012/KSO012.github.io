@@ -64,7 +64,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>International</span>
-          <span class="highlight orange">Editor's Choice</span>
+          <span class="highlight yellow">Editor's Choice</span>
         </div>
 
         <h4>
