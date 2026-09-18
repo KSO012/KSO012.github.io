@@ -14,12 +14,15 @@ permalink: /about/
   </header>
 
   <!-- Name -->
-  <div class="about-name-block">
+  <section class="about-name">
     <h2>Seon Kim</h2>
+  </section>
+  
+  <!-- Education Heading -->
+  <div class="about-section-heading">
+    <h2>Education</h2>
+    <p>Academic background and educational achievements.</p>
   </div>
-
-  <!-- Education -->
-  <section class="about-section" aria-label="Education">
 
     <!-- Master's Degree -->
     <article class="about-education">
