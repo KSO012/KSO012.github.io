@@ -283,6 +283,6 @@ html {
 /* 연도와 연도 사이에만 구분선 추가 */
 .journal-year-group + .journal-year-group {
   border-top: 1px solid #e1e6e5;
-  padding-top: 40px;
-  margin-top: 40px;
+  padding-top: 20px;
+  margin-top: 20px;
 }
