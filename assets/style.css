@@ -309,3 +309,36 @@ html {
   line-height: 1.2;
   color: #263f4b;
 }
+
+/* About - Name */
+
+.about-name {
+  margin: 0 0 45px;
+  padding: 0;
+}
+
+.about-name h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #263f4b;
+}
+
+/* Education Heading */
+
+.about-name + .about-section-heading {
+  margin-bottom: 30px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .about-name {
+    margin-bottom: 35px;
+  }
+
+  .about-name h2 {
+    font-size: 2rem;
+  }
+}
