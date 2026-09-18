@@ -276,19 +276,3 @@ html {
   box-shadow: 0 4px 12px rgba(41, 75, 91, 0.08);
 }
 
-
-/* 같은 연도 내 논문 구분선 제거 */
-
-.journal-year-group .journal-paper {
-  border-bottom: none;
-}
-
-
-/* 연도가 바뀔 때 구분선 표시 */
-
-.journal-section .journal-year-group
-+ .journal-year-group {
-  border-top: 1px solid #dce4e6;
-  padding-top: 40px;
-  margin-top: 40px;
-}
