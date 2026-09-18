@@ -37,7 +37,7 @@ permalink: /about/
       <article class="cv-education">
 
         <div class="cv-date">
-          <strong>2025 —</strong>
+          <strong>2025 Mar -</strong>
           <span>Present</span>
         </div>
 
@@ -70,8 +70,8 @@ permalink: /about/
       <article class="cv-education">
 
         <div class="cv-date">
-          <strong>2021 —</strong>
-          <span>Graduated</span>
+          <strong>2021 Mar -</strong>
+          <span>2025 Feb</span>
         </div>
 
         <div class="cv-education-content">
@@ -98,11 +98,6 @@ permalink: /about/
             Digital Healthcare / Digital Healthcare Advanced
           </p>
 
-          <div class="cv-gpa">
-            <span>GPA</span>
-            <strong>4.10 / 4.30</strong>
-          </div>
-
         </div>
 
       </article>
@@ -121,45 +116,6 @@ permalink: /about/
     <div class="journal-section-header">
       <h2>Honors &amp; Awards</h2>
     </div>
-
-    <!-- 2023 -->
-    <article class="cv-award">
-
-      <div class="cv-award-year">
-        2023
-      </div>
-
-      <div class="cv-award-content">
-
-        <h3>Honors</h3>
-
-        <p>
-          Second Semester · Yonsei University
-        </p>
-
-      </div>
-
-    </article>
-
-
-    <!-- 2021 -->
-    <article class="cv-award">
-
-      <div class="cv-award-year">
-        2021
-      </div>
-
-      <div class="cv-award-content">
-
-        <h3>High Honors</h3>
-
-        <p>
-          Second Semester · Yonsei University
-        </p>
-
-      </div>
-
-    </article>
 
   </section>
 
