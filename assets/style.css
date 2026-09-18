@@ -300,7 +300,18 @@ html {
 .about-page {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 40px 0 90px;
+  padding: 0 0 90px;
+}
+
+.about-name {
+  margin-bottom: 40px;
+}
+
+.about-name h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 400;
   color: #263f4b;
 }
 
