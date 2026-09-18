@@ -276,3 +276,17 @@ html {
   box-shadow: 0 4px 12px rgba(41, 75, 91, 0.08);
 }
 
+
+/* 논문 사이에는 구분선 없음 */
+.journal-paper {
+  padding: 28px 0;
+  border-bottom: none;
+}
+
+
+/* 연도와 연도 사이에만 구분선 추가 */
+.journal-year-group + .journal-year-group {
+  border-top: 1px solid #e1e6e5;
+  padding-top: 40px;
+  margin-top: 40px;
+}
