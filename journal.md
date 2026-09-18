@@ -14,20 +14,25 @@ permalink: /journal/
 
   <!-- Publication Statistics -->
   <div class="journal-stats">
+  
+    <!-- 전체 논문 -->
     <div class="journal-stat">
       <strong>02</strong>
       <span>Journal Papers</span>
     </div>
-
-    <div class="journal-stat">
+  
+    <!-- International: 클릭 시 해당 섹션으로 이동 -->
+    <a href="#international" class="journal-stat journal-stat-link">
       <strong>02</strong>
       <span>International</span>
-    </div>
-
-    <div class="journal-stat">
+    </a>
+  
+    <!-- Domestic: 클릭 시 해당 섹션으로 이동 -->
+    <a href="#domestic" class="journal-stat journal-stat-link">
       <strong>00</strong>
       <span>Domestic</span>
-    </div>
+    </a>
+  
   </div>
 
   <!-- Search -->
@@ -41,7 +46,7 @@ permalink: /journal/
   </div>
 
   <!-- International Journal -->
-  <section class="journal-section">
+  <section class="journal-section" id="international">
 
     <div class="journal-section-header">
       <h2>International Journal</h2>
@@ -112,7 +117,7 @@ permalink: /journal/
   </section>
 
   <!-- Domestic Journal -->
-  <section class="journal-section">
+  <section class="journal-section" id="domestic">
 
     <div class="journal-section-header">
       <h2>Domestic Journal</h2>
