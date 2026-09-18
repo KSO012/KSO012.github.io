@@ -297,19 +297,19 @@ html {
    ABOUT PAGE - ACADEMIC CV
 ========================================= */
 
-.about-page {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0 0 90px;
-  box-sizing: border-box;
+/* Content alignment */
+
+.cv-page.journal-page {
+  padding-top: 0;
 }
 
-.about-name {
-  margin-bottom: 40px;
+/* Name */
+
+.cv-name {
+  margin-bottom: 45px;
 }
 
-.about-name h2 {
+.cv-name h2 {
   margin: 0;
   font-family: Georgia, serif;
   font-size: 2.5rem;
@@ -317,55 +317,24 @@ html {
   color: #263f4b;
 }
 
-/* Page Heading */
 
-.about-heading {
-  margin-bottom: 75px;
+/* =========================================
+   EDUCATION
+========================================= */
+
+.cv-timeline {
+  padding-top: 30px;
 }
 
-.about-eyebrow {
-  display: block;
-  margin-bottom: 20px;
-  color: #527d7b;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
-.about-heading h1 {
-  margin: 0 0 18px;
-  font-family: Georgia, serif;
-  font-size: clamp(3rem, 6vw, 5rem);
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: -2px;
-}
-
-.about-heading h1 span {
-  color: #527d7b;
-}
-
-.about-heading p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #718086;
-}
-
-/* Education Timeline */
-
-.about-section {
-  border-top: 1px solid #cbd6d8;
-}
-
-.about-education {
+.cv-education {
   display: grid;
   grid-template-columns: 145px minmax(0, 1fr);
   gap: 35px;
-  padding-top: 35px;
 }
 
-.about-date {
+/* Date */
+
+.cv-date {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -373,25 +342,25 @@ html {
   font-size: 14px;
 }
 
-.about-date strong {
+.cv-date strong {
   color: #294b5b;
   font-weight: 600;
 }
 
-.about-date span {
+.cv-date span {
   color: #849092;
 }
 
-/* Vertical Timeline */
+/* Timeline */
 
-.about-education-content {
+.cv-education-content {
   position: relative;
   min-width: 0;
-  padding: 0 0 55px 35px;
+  padding: 0 0 45px 30px;
   border-left: 1px solid #d4dfe0;
 }
 
-.about-education-content::before {
+.cv-education-content::before {
   content: "";
   position: absolute;
   top: 6px;
@@ -402,233 +371,162 @@ html {
   background: #527d7b;
 }
 
-.about-education:last-child
-.about-education-content {
-  padding-bottom: 50px;
+.cv-education:last-child .cv-education-content {
+  padding-bottom: 0;
 }
 
-/* Status Badge */
 
-.about-status {
+/* Status */
+
+.cv-status {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 5px 11px;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 11px;
   font-weight: 600;
 }
 
-.about-status.current {
-  background: #e7f0ef;
+.cv-status.current {
   color: #3c6a66;
+  background: #e7f0ef;
 }
 
-.about-status.completed {
-  background: #edf1f3;
+.cv-status.completed {
   color: #596b75;
+  background: #edf1f3;
 }
 
-/* University and Degree */
 
-.about-education-content h2 {
+/* University */
+
+.cv-education-content h3 {
   margin: 0 0 8px;
   font-family: Georgia, serif;
-  font-size: 27px;
+  font-size: 26px;
   font-weight: 400;
-  line-height: 1.3;
+  color: #263f4b;
 }
 
-.about-location {
-  margin: 0 0 25px;
+.cv-location {
+  margin: 0 0 22px;
   color: #849092;
   font-size: 13px;
 }
 
-.about-education-content h3 {
-  margin: 0 0 14px;
+.cv-degree {
+  margin: 0 0 12px;
   color: #294b5b;
   font-size: 15px;
   font-weight: 600;
 }
 
-.about-detail {
+.cv-detail {
   margin: 0 0 8px;
   color: #68777d;
   font-size: 14px;
   line-height: 1.7;
 }
 
+
 /* GPA */
 
-.about-gpa {
+.cv-gpa {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
-.about-gpa > span {
+.cv-gpa > span {
   color: #849092;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.5px;
 }
 
-.about-gpa strong {
+.cv-gpa strong {
   padding: 6px 12px;
   border-radius: 5px;
-  background: #eaf0f2;
   color: #294b5b;
+  background: #eaf0f2;
   font-size: 13px;
-  font-weight: 600;
 }
 
-/* Honors and Awards */
 
-.about-awards {
-  margin-top: 35px;
-  padding-top: 45px;
-  border-top: 1px solid #cbd6d8;
-}
+/* =========================================
+   HONORS & AWARDS
+========================================= */
 
-.about-section-heading {
-  margin-bottom: 35px;
-}
-
-.about-section-heading h2 {
-  margin: 0 0 12px;
-  font-family: Georgia, serif;
-  font-size: 31px;
-  font-weight: 400;
-}
-
-.about-section-heading p {
-  margin: 0;
-  color: #849092;
-  font-size: 14px;
-}
-
-.about-award {
+.cv-award {
   display: grid;
   grid-template-columns: 145px minmax(0, 1fr);
   gap: 35px;
-  padding: 23px 0;
+  padding: 25px 0;
   border-bottom: 1px solid #e1e6e5;
 }
 
-.about-award:last-child {
+.cv-award:last-child {
   border-bottom: none;
 }
 
-.about-award-year {
+.cv-award-year {
   color: #527d7b;
   font-size: 15px;
   font-weight: 600;
 }
 
-.about-award h3 {
-  margin: 0 0 7px;
+.cv-award-content h3 {
+  margin: 0 0 8px;
+  color: #263f4b;
   font-size: 16px;
   font-weight: 600;
 }
 
-.about-award p {
+.cv-award-content p {
   margin: 0;
   color: #849092;
   font-size: 13px;
   line-height: 1.6;
 }
 
-/* Responsive */
+
+/* =========================================
+   MOBILE
+========================================= */
 
 @media (max-width: 700px) {
 
-  .about-page {
-    padding: 35px 0 60px;
+  .cv-name {
+    margin-bottom: 35px;
   }
 
-  .about-heading {
-    margin-bottom: 50px;
+  .cv-name h2 {
+    font-size: 2rem;
   }
 
-  .about-heading h1 {
-    letter-spacing: -1px;
-  }
-
-  .about-education {
+  .cv-education {
     grid-template-columns: 1fr;
-    gap: 18px;
-    padding-top: 30px;
+    gap: 15px;
   }
 
-  .about-date {
+  .cv-date {
     flex-direction: row;
     gap: 8px;
   }
 
-  .about-education-content {
+  .cv-education-content {
     margin-left: 4px;
     padding-left: 25px;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
   }
 
-  .about-education-content h2 {
-    font-size: 24px;
+  .cv-education-content h3 {
+    font-size: 23px;
   }
 
-  .about-award {
+  .cv-award {
     grid-template-columns: 65px minmax(0, 1fr);
     gap: 18px;
   }
 
-  .about-section-heading h2 {
-    font-size: 26px;
-  }
-
-}
-
-.about-name-block {
-  margin-bottom: 18px;
-}
-
-.about-name-block h2 {
-  margin: 0;
-  font-family: Georgia, serif;
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.2;
-  color: #263f4b;
-}
-
-/* About - Name */
-
-.about-name {
-  margin: 0 0 45px;
-  padding: 0;
-}
-
-.about-name h2 {
-  margin: 0;
-  font-family: Georgia, serif;
-  font-size: 2.5rem;
-  font-weight: 400;
-  color: #263f4b;
-}
-
-/* Education Heading */
-
-.about-name + .about-section-heading {
-  margin-bottom: 30px;
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-  .about-name {
-    margin-bottom: 35px;
-  }
-
-  .about-name h2 {
-    font-size: 2rem;
-  }
 }
