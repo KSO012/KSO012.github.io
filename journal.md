@@ -64,7 +64,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>International</span>
-          <span class="highlight">Editor's Choice</span>
+          <span class="highlight orange">Editor's Choice</span>
         </div>
 
         <h4>
@@ -226,7 +226,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>Domestic</span>
-          <span class="highlight">KCI</span>
+          <span class="highlight blue">KCI</span>
         </div>
     
         <h4>
