@@ -13,10 +13,10 @@
     <div class="header-inner">
       <a class="brand" href="{{ '/' | relative_url }}">Seon Kim<span class="brand-dot">.</span></a>
       <nav aria-label="주 메뉴">
-        <a href="{{ '/about/' | relative_url }}" {% if page.nav == 'about' %}aria-current="page"{% endif %}>About</a>
         <a href="{{ '/research/' | relative_url }}" {% if page.nav == 'research' %}aria-current="page"{% endif %}>Research</a>
         <a href="{{ '/journal/' | relative_url }}" {% if page.nav == 'journal' %}aria-current="page"{% endif %}>Journal</a>
         <a href="{{ '/conference/' | relative_url }}" {% if page.nav == 'conference' %}aria-current="page"{% endif %}>Conference</a>
+        <a href="{{ '/about/' | relative_url }}" {% if page.nav == 'about' %}aria-current="page"{% endif %}>About</a>
         <a href="{{ '/contact/' | relative_url }}" {% if page.nav == 'contact' %}aria-current="page"{% endif %}>Contact</a>
       </nav>
     </div>
