@@ -57,34 +57,7 @@ permalink: /journal/
 
       <h3 class="journal-year">2026</h3>
 
-      <!-- Paper 1 -->
-      <article class="journal-paper">
-
-        <div class="journal-badges">
-          <span>Journal</span>
-          <span>International</span>
-        </div>
-
-        <h4>
-          <a href="https://www.nature.com/articles/s41598-026-66283-w"
-             target="_blank"
-             rel="noopener noreferrer">
-            Personalized Disease Prediction Framework based on Genomic Variants and Disease Histories using Deep Embeddings and Alignment-based Process Conformance Checking
-          </a>
-        </h4>
-
-        <p class="journal-authors">
-          Daewoo Pak, <strong>Seon Kim</strong>, Hyunwoo Jo,
-          Jongchan Kim*
-        </p>
-
-        <p class="journal-name">
-          Scientific Reports
-        </p>
-
-      </article>
-
-      <!-- Paper 2 -->
+      <!-- 2026 Paper 1 -->
       <article class="journal-paper">
 
         <div class="journal-badges">
@@ -102,14 +75,68 @@ permalink: /journal/
         </h4>
 
         <p class="journal-authors">
-          Hyunwoo Jo, <strong>Seon Kim</strong>, Hyunwoo Son,
-          Jongchan Kim*
+          Hyunwoo Jo, <strong>Seon Kim</strong>, Hyunwoo Son, Jongchan Kim*
         </p>
 
         <p class="journal-name">
-          International Journal of Medical Informatics
+          International Journal of Medical Informatics, 2026 Sep
         </p>
 
+      </article>
+
+      <!-- 2026 Paper 3 -->
+      <article class="journal-paper">
+
+        <div class="journal-badges">
+          <span>Journal</span>
+          <span>International</span>
+        </div>
+
+        <h4>
+          <a href="https://www.nature.com/articles/s41598-026-66283-w"
+             target="_blank"
+             rel="noopener noreferrer">
+            Personalized Disease Prediction Framework based on Genomic Variants and Disease Histories using Deep Embeddings and Alignment-based Process Conformance Checking
+          </a>
+        </h4>
+
+        <p class="journal-authors">
+          Daewoo Pak, <strong>Seon Kim</strong>, Hyunwoo Jo, Jongchan Kim*
+        </p>
+
+        <p class="journal-name">
+          Scientific Reports, 2026 Aug
+        </p>
+
+      </article>
+
+      <!-- 2026 Paper 3 -->
+      <article class="journal-paper">
+      
+        <div class="journal-badges">
+          <span>Journal</span>
+          <span>International</span>
+        </div>
+      
+        <h4>
+          <a href="https://doi.org/10.13104/imri.2025.0038"
+             target="_blank"
+             rel="noopener noreferrer">
+            Segmentation-Based Landmark Localization in Cerebral
+            Magnetic Resonance Angiography Using Landmark Subsets
+          </a>
+        </h4>
+      
+        <p class="journal-authors">
+          Yura Jeong, Daehyun Kwon,
+          <strong>Se-On Kim</strong>,
+          Ga-Hyeon Kim, Min-Seo Park, Yoon-Chul Kim
+        </p>
+      
+        <p class="journal-name">
+          Investigative Magnetic Resonance Imaging, 2026
+        </p>
+      
       </article>
 
     </div>
