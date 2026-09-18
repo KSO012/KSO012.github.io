@@ -1,0 +1,9 @@
+title: Seon Kim
+description: 개발과 배움을 기록하는 개인 블로그
+url: https://kso012.github.io
+baseurl: ""
+lang: ko
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+exclude:
+  - README.md
