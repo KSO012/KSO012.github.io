@@ -117,11 +117,15 @@ permalink: /conference/
           <span>Conference</span>
           <span>International</span>
         </div>
-  
+
         <h4>
-          Bus stop congestion monitoring based on process discovery algorithms
+          <a href="https://icpmconference.org/2025/proceedings/"
+             target="_blank"
+             rel="noopener noreferrer">
+            Bus stop congestion monitoring based on process discovery algorithms
+          </a>
         </h4>
-  
+        
         <p class="journal-authors">
           <strong>Seon Kim</strong>, Jungtak Oh,
           Jongchan Kim*
