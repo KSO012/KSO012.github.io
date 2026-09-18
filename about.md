@@ -21,12 +21,6 @@ permalink: /about/
 
 <div class="journal-page cv-page">
 
-  <!-- Name -->
-  <div class="cv-name">
-    <h2>Seon Kim</h2>
-  </div>
-
-
   <!-- ===================================
        EDUCATION
   =================================== -->
