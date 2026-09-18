@@ -302,7 +302,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  // 논문 개수 계산
+  // Count publications
   const international = document.querySelectorAll(
     "#international .journal-paper"
   ).length;
@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const total = international + domestic;
 
-  // 상단 통계 박스
+  // Update statistics boxes
   const stats = document.querySelectorAll(
     ".journal-stats .journal-stat strong"
   );
@@ -322,6 +322,25 @@ document.addEventListener("DOMContentLoaded", function () {
     stats[0].textContent = String(total).padStart(2, "0");
     stats[1].textContent = String(international).padStart(2, "0");
     stats[2].textContent = String(domestic).padStart(2, "0");
+  }
+
+  // Update section counts
+  const internationalCount = document.querySelector(
+    "#international .journal-section-header > span"
+  );
+
+  const domesticCount = document.querySelector(
+    "#domestic .journal-section-header > span"
+  );
+
+  if (internationalCount) {
+    internationalCount.textContent =
+      international + (international === 1 ? " Paper" : " Papers");
+  }
+
+  if (domesticCount) {
+    domesticCount.textContent =
+      domestic + (domestic === 1 ? " Paper" : " Papers");
   }
 
 });
