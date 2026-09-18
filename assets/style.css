@@ -249,3 +249,25 @@ html {
 #domestic {
   scroll-margin-top: 110px;
 }
+
+
+/* Journal Search Hover Animation */
+
+.journal-search input {
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+/* 마우스를 올렸을 때 */
+.journal-search input:hover {
+  border-color: #416a79;
+  background: #eaf0f2;
+  transform: translateY(-3px);
+}
+
+/* 검색창을 클릭했을 때 */
+.journal-search input:focus {
+  border-color: #416a79;
+  background: #ffffff;
+  transform: translateY(-3px);
+}
