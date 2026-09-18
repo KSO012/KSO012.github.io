@@ -357,7 +357,7 @@ html {
   position: relative;
   min-width: 0;
   padding: 0 0 45px 30px;
-  border-left: 1px solid #d4dfe0;
+  border-left: none;
 }
 
 /* 기본 동그라미: 회색 */
@@ -381,6 +381,31 @@ html {
   padding-bottom: 0;
 }
 
+/* Timeline - 기본 세로선 */
+.cv-education-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 2px;
+  background: #d4dfe0;
+}
+
+/* 석사: 초록색 → 회색 그라데이션 */
+.cv-education:first-child .cv-education-content::after {
+  background: linear-gradient(
+    to bottom,
+    #27834e 0%,
+    #83ad95 45%,
+    #d4dfe0 100%
+  );
+}
+
+/* 동그라미를 세로선 위에 표시 */
+.cv-education-content::before {
+  z-index: 1;
+}
 
 /* Status */
 
