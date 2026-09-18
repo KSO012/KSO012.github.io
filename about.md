@@ -12,11 +12,6 @@ permalink: /about/
 
 <div class="about-page">
 
-  <!-- Name -->
-  <div class="about-name">
-    <h2>Seon Kim</h2>
-  </div>
-
   <!-- Education Heading -->
   <div class="about-section-heading">
     <h2>Education</h2>
