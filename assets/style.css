@@ -539,6 +539,7 @@ html {
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-top: 30px;
   margin-bottom: 65px;
 }
 
