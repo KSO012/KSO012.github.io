@@ -298,9 +298,11 @@ html {
 ========================================= */
 
 .about-page {
-  max-width: 1050px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   padding: 0 0 90px;
+  box-sizing: border-box;
 }
 
 .about-name {
