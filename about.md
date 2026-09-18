@@ -21,6 +21,22 @@ permalink: /about/
 
 <div class="journal-page cv-page">
 
+<!-- Profile -->
+<div class="cv-profile">
+
+  <img
+    src="{{ '/assets/favicon.png' | relative_url }}"
+    alt="Seon Kim"
+    class="cv-profile-image"
+  >
+
+  <div class="cv-profile-info">
+    <h2>Seon Kim</h2>
+    <p>Master's Student · Yonsei University</p>
+  </div>
+
+</div>
+
   <!-- ===================================
        EDUCATION
   =================================== -->
@@ -37,7 +53,7 @@ permalink: /about/
       <article class="cv-education">
 
         <div class="cv-date">
-          <strong>2025 Mar - Present</strong>
+          <strong>2025 Mar — Present</strong>
         </div>
 
         <div class="cv-education-content">
@@ -73,8 +89,7 @@ permalink: /about/
       <article class="cv-education">
 
         <div class="cv-date">
-          <strong>2021 Mar -</strong>
-          <span>2025 Feb</span>
+          <strong>2021 Mar — 2025 Feb</strong>
         </div>
 
         <div class="cv-education-content">
