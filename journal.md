@@ -216,9 +216,37 @@ permalink: /journal/
       <span>0 Papers</span>
     </div>
 
-    <p class="journal-empty">
-      No publications yet.
-    </p>
+    <div class="journal-year-group">
+    
+      <h3 class="journal-year">2025</h3>
+    
+      <article class="journal-paper">
+    
+        <div class="journal-badges">
+          <span>Journal</span>
+          <span>Domestic</span>
+          <span class="highlight">KCI</span>
+        </div>
+    
+        <h4>
+          <a href="https://doi.org/10.23019/kingpc.21.3.202506.003"
+             target="_blank"
+             rel="noopener noreferrer">
+            생성형 인공지능 모델 기반 데이터 증강이 복부 CT영상에서 L3 슬라이스 분류에 미치는 영향
+          </a>
+        </h4>
+    
+        <p class="journal-authors">
+          지성현, 윤훈석, <strong>김세온</strong>, 안정수, 김판기, 김윤철*
+        </p>
+    
+        <p class="journal-name">
+          한국차세대컴퓨팅학회 논문지, 2025
+        </p>
+    
+      </article>
+    
+    </div>
 
   </section>
 
