@@ -6,9 +6,8 @@ permalink: /conference/
 ---
 
 <section class="page-intro">
-  <div class="eyebrow">PUBLICATIONS</div>
+  <div class="eyebrow">PUBLICATION</div>
   <h1>Conference</h1>
-  <p>Conference papers and presentations.</p>
 </section>
 
 <div class="journal-page conference-page">
@@ -47,34 +46,134 @@ permalink: /conference/
 
   <!-- International Conference -->
   <section class="journal-section" id="international">
-
+  
     <div class="journal-section-header">
       <h2>International Conference</h2>
       <span>0 Papers</span>
     </div>
-
-    <!-- Add international papers here -->
-
-    <p class="journal-empty">
-      Conference papers will be listed here.
-    </p>
-
+  
+    <!-- 2026 -->
+  
+    <div class="journal-year-group">
+  
+      <h3 class="journal-year">2026</h3>
+  
+      <!-- EMNLP 2026 -->
+      <article class="journal-paper">
+  
+        <div class="journal-badges">
+          <span>Conference</span>
+          <span>International</span>
+        </div>
+  
+        <h4>
+          Uncertainty Meets Conformance: A Process Mining-based Multi-Objective Evaluation for Clinical Reasoning using LLMs
+        </h4>
+  
+        <p class="journal-authors">
+          <strong>Seon Kim</strong>, Jeong-woo Lee, Tae Hoon Kong*, Jongchan Kim*
+        </p>
+  
+        <p class="journal-name">
+          Third Workshop on Uncertainty-Aware NLP, 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Budapest, Hungary
+        </p>
+  
+      </article>
+  
+      <!-- ASPAI 2026 -->
+      <article class="journal-paper">
+  
+        <div class="journal-badges">
+          <span>Conference</span>
+          <span>International</span>
+        </div>
+  
+        <h4>
+          A comparative analysis of trace encoding methods for next activity predictive process monitoring
+        </h4>
+  
+        <p class="journal-authors">
+          <strong>Seon Kim</strong>, Chaeyeon Park, Youngwoo Ko, Hyunwoo Jo, Jongchan Kim*
+        </p>
+  
+        <p class="journal-name">
+          2nd Asia-Pacific Symposium on Process and AI (ASPAI 2026), Pohang, Republic of Korea
+        </p>
+  
+      </article>
+  
+    </div>
+  
+    <!-- 2025 -->
+  
+    <div class="journal-year-group">
+  
+      <h3 class="journal-year">2025</h3>
+  
+      <!-- ICPM 2025 -->
+      <article class="journal-paper">
+  
+        <div class="journal-badges">
+          <span>Conference</span>
+          <span>International</span>
+        </div>
+  
+        <h4>
+          Bus stop congestion monitoring based on process discovery algorithms
+        </h4>
+  
+        <p class="journal-authors">
+          <strong>Seon Kim</strong>, Jungtak Oh,
+          Jongchan Kim*
+        </p>
+  
+        <p class="journal-name">
+          Empirical Research in Process Mining Workshop, 7th International Conference on Process Mining (ICPM 2025), Montevideo, Uruguay
+        </p>
+  
+      </article>
+  
+    </div>
+  
   </section>
 
   <!-- Domestic Conference -->
   <section class="journal-section" id="domestic">
-
+  
     <div class="journal-section-header">
       <h2>Domestic Conference</h2>
       <span>0 Papers</span>
     </div>
-
-    <!-- Add domestic papers here -->
-
-    <p class="journal-empty">
-      Conference papers will be listed here.
-    </p>
-
+  
+    <!-- 2025 -->
+  
+    <div class="journal-year-group">
+  
+      <h3 class="journal-year">2025</h3>
+  
+      <article class="journal-paper">
+  
+        <div class="journal-badges">
+          <span>Conference</span>
+          <span>Domestic</span>
+        </div>
+  
+        <h4>
+          프로세스 디스커버리 알고리즘 기반 버스정류장 혼잡도 모니터링
+        </h4>
+  
+        <p class="journal-authors">
+          <strong>김세온</strong>, 김종찬*
+        </p>
+  
+        <p class="journal-name">
+          2025 한국인공지능융합기술학회 춘계학술대회
+        </p>
+  
+      </article>
+  
+    </div>
+  
   </section>
 
   <p id="conference-no-results" hidden>
