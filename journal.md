@@ -141,6 +141,71 @@ permalink: /journal/
 
     </div>
 
+    <!-- 2024 -->    
+    <div class="journal-year-group">
+    
+      <h3 class="journal-year">2024</h3>
+    
+      <article class="journal-paper">
+    
+        <div class="journal-badges">
+          <span>Journal</span>
+          <span>International</span>
+        </div>
+    
+        <h4>
+          <a href="https://doi.org/10.3390/jimaging10030058"
+             target="_blank"
+             rel="noopener noreferrer">
+            An Improved Path-Finding Method for the Tracking of Centerlines of Tortuous Internal Carotid Arteries in MR Angiography
+          </a>
+        </h4>
+    
+        <p class="journal-authors">
+          <strong>Se-On Kim</strong>, Yoon-Chul Kim
+        </p>
+    
+        <p class="journal-name">
+          Journal of Imaging, 2024 Feb
+        </p>
+    
+      </article>
+    
+    </div>
+    
+    <!-- 2023 -->
+    
+    <div class="journal-year-group">
+    
+      <h3 class="journal-year">2023</h3>
+    
+      <article class="journal-paper">
+    
+        <div class="journal-badges">
+          <span>Journal</span>
+          <span>International</span>
+        </div>
+    
+        <h4>
+          <a href="https://doi.org/10.3390/tomography9040113"
+             target="_blank"
+             rel="noopener noreferrer">
+            Effects of Path-Finding Algorithms on the Labeling of the Centerlines of Circle of Willis Arteries
+          </a>
+        </h4>
+    
+        <p class="journal-authors">
+          <strong>Se-On Kim</strong>, Yoon-Chul Kim
+        </p>
+    
+        <p class="journal-name">
+          Tomography, 2023 Jul
+        </p>
+    
+      </article>
+    
+    </div>
+
   </section>
 
   <!-- Domestic Journal -->
