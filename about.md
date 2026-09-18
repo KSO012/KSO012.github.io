@@ -32,7 +32,7 @@ permalink: /about/
 
   <div class="cv-profile-info">
     <h2>Seon Kim</h2>
-    <p>Master's Student · Yonsei University</p>
+    <p>Master of Science Student · Yonsei University</p>
   </div>
 
 </div>
