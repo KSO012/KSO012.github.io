@@ -120,7 +120,7 @@ permalink: /contact/
         <span class="contact-arrow">↗</span>
 
         <strong>ORCID</strong>
-        <span>Researcher identity</span>
+        <span>Researcher Identity</span>
 
       </a>
 
@@ -143,13 +143,13 @@ permalink: /contact/
         <span class="contact-arrow">↗</span>
 
         <strong>GitHub</strong>
-        <span>Code &amp; projects</span>
+        <span>Code &amp; Projects</span>
 
       </a>
 
       <!-- Tistory -->
       <a class="contact-profile"
-         href="https://YOUR-BLOG.tistory.com"
+         href="https://https://kso323.tistory.com/"
          target="_blank"
          rel="noopener noreferrer">
       
@@ -171,7 +171,7 @@ permalink: /contact/
         <span class="contact-arrow">↗</span>
       
         <strong>Tistory</strong>
-        <span>Blog &amp; writing</span>
+        <span>Blog &amp; Writing</span>
       
       </a>
 
