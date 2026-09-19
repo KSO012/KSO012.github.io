@@ -64,6 +64,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>International</span>
+          <span class="highlight blue">SCIE</span>
           <span class="highlight yellow">Editor's Choice</span>
         </div>
 
@@ -91,6 +92,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>International</span>
+          <span class="highlight blue">SCIE</span>
         </div>
 
         <h4>
@@ -123,15 +125,12 @@ permalink: /journal/
           <a href="https://doi.org/10.13104/imri.2025.0038"
              target="_blank"
              rel="noopener noreferrer">
-            Segmentation-Based Landmark Localization in Cerebral
-            Magnetic Resonance Angiography Using Landmark Subsets
+            Segmentation-Based Landmark Localization in Cerebral Magnetic Resonance Angiography Using Landmark Subsets
           </a>
         </h4>
       
         <p class="journal-authors">
-          Yura Jeong, Daehyun Kwon,
-          <strong>Se-On Kim</strong>,
-          Ga-Hyeon Kim, Min-Seo Park, Yoon-Chul Kim*
+          Yura Jeong, Daehyun Kwon, <strong>Se-On Kim</strong>, Ga-Hyeon Kim, Min-Seo Park, Yoon-Chul Kim*
         </p>
       
         <p class="journal-name">
@@ -185,6 +184,7 @@ permalink: /journal/
         <div class="journal-badges">
           <span>Journal</span>
           <span>International</span>
+          <span class="highlight blue">SCIE</span>
         </div>
     
         <h4>
