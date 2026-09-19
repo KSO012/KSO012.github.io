@@ -761,3 +761,42 @@ html {
     font-size: 22px;
   }
 }
+
+/* Contact Information - Unified Alignment */
+
+.contact-list > .contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.contact-list > .contact-item > .contact-icon {
+  flex: 0 0 60px;
+}
+
+.contact-list > .contact-item > .contact-details {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.contact-list > .contact-item > .contact-arrow {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .contact-list > .contact-item {
+    gap: 14px;
+  }
+
+  .contact-list > .contact-item > .contact-icon {
+    flex-basis: 50px;
+  }
+}
