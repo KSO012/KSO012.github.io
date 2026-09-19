@@ -152,22 +152,16 @@ permalink: /contact/
          href="https://https://kso323.tistory.com/"
          target="_blank"
          rel="noopener noreferrer">
-      
+
         <span class="contact-profile-icon">
-          <svg width="26" height="26"
-               viewBox="0 0 24 24"
-               fill="none"
-               stroke="currentColor"
-               stroke-width="1.8"
-               stroke-linecap="round"
-               stroke-linejoin="round"
-               aria-hidden="true">
-            <rect x="4" y="2" width="16" height="20" rx="2"/>
-            <path d="M8 6h8M8 10h8M8 14h5"/>
-            <path d="m15 18 3-3 2 2-3 3-3 1z"/>
-          </svg>
+          <img
+            src="https://cdn.simpleicons.org/tistory/294B5B"
+            alt=""
+            width="26"
+            height="26"
+          >
         </span>
-      
+              
         <span class="contact-arrow">↗</span>
       
         <strong>Tistory</strong>
