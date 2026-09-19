@@ -630,10 +630,10 @@ html {
 
 .contact-item {
   display: grid;
-  grid-template-columns: 52px minmax(0, 1fr) 20px;
+  grid-template-columns: 68px minmax(0, 1fr) 20px;
   align-items: center;
-  gap: 22px;
-  padding: 28px 0;
+  gap: 24px;
+  padding: 30px 0;
   color: inherit;
   text-decoration: none;
 }
@@ -642,12 +642,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
   background: #eaf0f2;
   color: #294b5b;
-  font-size: 22px;
+  font-size: 26px;
+  flex-shrink: 0;
 }
 
 .contact-details {
@@ -664,10 +665,19 @@ html {
 }
 
 .contact-details strong {
+  display: block;
   color: #263f4b;
   font-size: 16px;
   font-weight: 600;
+  line-height: 1.5;
   overflow-wrap: anywhere;
+}
+
+.contact-details p {
+  margin: 6px 0 0;
+  color: #718086;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .contact-arrow {
@@ -739,20 +749,15 @@ html {
 /* Mobile */
 
 @media (max-width: 700px) {
-
   .contact-item {
-    grid-template-columns: 44px minmax(0, 1fr) 16px;
-    gap: 12px;
-    padding: 22px 0;
+    grid-template-columns: 56px minmax(0, 1fr) 16px;
+    gap: 14px;
+    padding: 24px 0;
   }
 
   .contact-icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
   }
-
-  .contact-profiles {
-    grid-template-columns: 1fr;
-  }
-
 }
