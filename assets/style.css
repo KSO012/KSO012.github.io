@@ -800,3 +800,10 @@ html {
     flex-basis: 50px;
   }
 }
+
+.contact-profile-icon img {
+  display: block;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
