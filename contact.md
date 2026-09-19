@@ -20,7 +20,7 @@ permalink: /contact/
       <h2>Contact Information</h2>
     </div>
 
-    <-- Email -->
+    <!-- Email -->
     <a class="contact-item"
        href="mailto:kso323@yonsei.ac.kr">
 
