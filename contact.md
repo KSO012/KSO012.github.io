@@ -42,8 +42,7 @@ permalink: /contact/
 
       <div class="contact-details">
         <span class="contact-label">LOCATION</span>
-        <strong>Wonju, South Korea</strong>
-        <p>Yonsei University, Mirae Campus</p>
+        <strong>Changjo Hall (창조관) 168</strong>
       </div>
 
     </div>
