@@ -37,19 +37,10 @@ permalink: /contact/
       
         <div class="contact-details">
           <span class="contact-label">EMAIL ADDRESS</span>
-          <strong>
-            <a href="mailto:kso323@yonsei.ac.kr"
-               style="color: inherit; text-decoration: none;">
-              kso323@yonsei.ac.kr
-            </a>
-          </strong>
+          <strong>your-email@yonsei.ac.kr</strong>
         </div>
-      
-        <a class="contact-arrow"
-           href="mailto:kso323@yonsei.ac.kr"
-           aria-label="Send an email">
-          ↗
-        </a>
+
+        <span class="contact-arrow">↗</span>
       
       </div>
   
