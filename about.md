@@ -141,7 +141,7 @@ permalink: /about/
   
   </section>
 
-  <!-- Academic Profiles -->
+  <!-- Profiles & Links -->
   <section class="journal-section">
 
     <div class="journal-section-header">
