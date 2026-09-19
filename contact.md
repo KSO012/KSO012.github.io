@@ -95,7 +95,7 @@ permalink: /contact/
   <section class="journal-section">
 
     <div class="journal-section-header">
-      <h2>Academic Profiles</h2>
+      <h2>Profiles &amp; Links</h2>
     </div>
 
     <div class="contact-profiles">
@@ -106,7 +106,17 @@ permalink: /contact/
          target="_blank"
          rel="noopener noreferrer">
 
-        <span class="contact-profile-icon">ID</span>
+        <span class="contact-profile-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M8 10v6M8 7.5v.2M12 9h2.5a3.5 3.5 0 0 1 0 7H12V9Z"/>
+          </svg>
+        </span>
         <span class="contact-arrow">↗</span>
 
         <strong>ORCID</strong>
