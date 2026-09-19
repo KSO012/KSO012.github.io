@@ -75,7 +75,7 @@ permalink: /conference/
         </p>
   
         <p class="journal-name">
-          Third Workshop on Uncertainty-Aware NLP, 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Budapest, Hungary
+          Third Workshop on Uncertainty-Aware NLP (UncertaiNLP), 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), Budapest, Hungary
         </p>
   
       </article>
@@ -132,7 +132,7 @@ permalink: /conference/
         </p>
   
         <p class="journal-name">
-          Empirical Research in Process Mining Workshop, 7th International Conference on Process Mining (ICPM 2025), Montevideo, Uruguay
+          Empirical Research in Process Mining Workshop (ERPM), 7th International Conference on Process Mining (ICPM 2025), Montevideo, Uruguay
         </p>
   
       </article>
