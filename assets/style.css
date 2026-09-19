@@ -855,3 +855,14 @@ html {
   height: 20px;
   object-fit: contain;
 }
+
+/* Contact Information - 상단 간격 조절 */
+
+.contact-page .journal-section:first-child
+.journal-section-header {
+  margin-bottom: 18px;
+}
+
+.contact-page .contact-list > .contact-item:first-child {
+  padding-top: 8px;
+}
