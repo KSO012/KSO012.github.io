@@ -31,7 +31,7 @@ permalink: /
   <a class="feature" href="{{ '/research/' | relative_url }}">
     <span class="eyebrow">01 / RESEARCH</span>
     <h2>Research</h2>
-    <p>Research interests and projects.</p>
+    <p>Research Interests and Projects.</p>
     <span class="feature-arrow">↗</span>
   </a>
 
@@ -39,7 +39,7 @@ permalink: /
   <a class="feature" href="{{ '/journal/' | relative_url }}">
     <span class="eyebrow">02 / JOURNAL</span>
     <h2>Journal</h2>
-    <p>Peer-reviewed journal publications.</p>
+    <p>Journal Publications.</p>
     <span class="feature-arrow">↗</span>
   </a>
 
@@ -47,7 +47,7 @@ permalink: /
   <a class="feature" href="{{ '/conference/' | relative_url }}">
     <span class="eyebrow">03 / CONFERENCE</span>
     <h2>Conference</h2>
-    <p>Conference papers and presentations.</p>
+    <p>Conference Publications.</p>
     <span class="feature-arrow">↗</span>
   </a>
 
@@ -55,7 +55,7 @@ permalink: /
   <a class="feature" href="{{ '/about/' | relative_url }}">
     <span class="eyebrow">04 / ABOUT</span>
     <h2>About</h2>
-    <p>Academic background and education.</p>
+    <p>Self Introduction.</p>
     <span class="feature-arrow">↗</span>
   </a>
 
@@ -63,7 +63,7 @@ permalink: /
   <a class="feature" href="{{ '/contact/' | relative_url }}">
     <span class="eyebrow">05 / CONTACT</span>
     <h2>Contact</h2>
-    <p>Contact information and external links.</p>
+    <p>Contact Information.</p>
     <span class="feature-arrow">↗</span>
   </a>
 
