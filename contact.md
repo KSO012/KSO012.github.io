@@ -23,9 +23,8 @@ permalink: /contact/
     <div class="contact-list">
   
       <!-- Email -->
-      <a class="contact-item"
-         href="mailto:kso323@yonsei.ac.kr">
-  
+      <div class="contact-item">
+      
         <div class="contact-icon">
           <svg width="26" height="26" viewBox="0 0 24 24"
                fill="none" stroke="currentColor"
@@ -35,15 +34,24 @@ permalink: /contact/
             <path d="m22 7-10 6L2 7"/>
           </svg>
         </div>
-  
+      
         <div class="contact-details">
           <span class="contact-label">EMAIL ADDRESS</span>
-          <strong>kso323@yonsei.ac.kr</strong>
+          <strong>
+            <a href="mailto:kso323@yonsei.ac.kr"
+               style="color: inherit; text-decoration: none;">
+              kso323@yonsei.ac.kr
+            </a>
+          </strong>
         </div>
-  
-        <span class="contact-arrow">↗</span>
-  
-      </a>
+      
+        <a class="contact-arrow"
+           href="mailto:kso323@yonsei.ac.kr"
+           aria-label="Send an email">
+          ↗
+        </a>
+      
+      </div>
   
       <!-- Location -->
       <div class="contact-item">
