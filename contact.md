@@ -37,7 +37,7 @@ permalink: /contact/
         </div>
       
         <div class="contact-details">
-          <span class="contact-label">EMAIL ADDRESS</span>
+          <span class="contact-label">EMAIL</span>
           <strong>kso323@yonsei.ac.kr</strong>
         </div>
 
