@@ -169,6 +169,28 @@ permalink: /contact/
       
       </a>
 
+      <!-- Naver Blog -->
+      <a class="contact-profile"
+         href="https://blog.naver.com/izar023"
+         target="_blank"
+         rel="noopener noreferrer">
+      
+        <span class="contact-profile-icon">
+          <img
+            src="https://cdn.simpleicons.org/naver/294B5B"
+            alt=""
+            width="26"
+            height="26"
+          >
+        </span>
+      
+        <span class="contact-arrow">↗</span>
+      
+        <strong>Naver Blog</strong>
+        <span>Blog &amp; Writing</span>
+      
+      </a>
+
     </div>
 
   </section>
