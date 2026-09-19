@@ -130,11 +130,15 @@ permalink: /about/
   =================================== -->
 
   <section class="journal-section">
-
+  
     <div class="journal-section-header">
       <h2>Honors &amp; Awards</h2>
     </div>
-
+  
+    <p class="journal-empty">
+      No honors or awards to display yet.
+    </p>
+  
   </section>
 
 </div>
