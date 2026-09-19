@@ -620,3 +620,139 @@ html {
     font-size: 13px;
   }
 }
+
+
+/* =========================================
+   CONTACT PAGE
+========================================= */
+
+/* Email */
+
+.contact-item {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) 20px;
+  align-items: center;
+  gap: 22px;
+  padding: 28px 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background: #eaf0f2;
+  color: #294b5b;
+  font-size: 22px;
+}
+
+.contact-details {
+  min-width: 0;
+}
+
+.contact-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #849092;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.contact-details strong {
+  color: #263f4b;
+  font-size: 16px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.contact-arrow {
+  color: #849092;
+  font-size: 19px;
+  transition: transform 0.2s ease;
+}
+
+.contact-item:hover .contact-arrow {
+  transform: translate(3px, -3px);
+}
+
+/* Academic Profiles */
+
+.contact-profiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.contact-profile {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  padding: 28px;
+  border: 1px solid #dce4e6;
+  border-radius: 10px;
+  background: #fff;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.contact-profile:hover {
+  transform: translateY(-3px);
+  border-color: #416a79;
+  background: #f6f9f9;
+}
+
+.contact-profile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 9px;
+  background: #eaf0f2;
+  color: #294b5b;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.contact-profile strong {
+  grid-column: 1 / -1;
+  margin-top: 15px;
+  color: #263f4b;
+  font-size: 16px;
+}
+
+.contact-profile > span:last-child {
+  grid-column: 1 / -1;
+  color: #849092;
+  font-size: 13px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .contact-item {
+    grid-template-columns: 44px minmax(0, 1fr) 16px;
+    gap: 12px;
+    padding: 22px 0;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-profiles {
+    grid-template-columns: 1fr;
+  }
+
+}
