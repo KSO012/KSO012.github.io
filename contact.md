@@ -60,7 +60,7 @@ permalink: /contact/
   
         <div class="contact-details">
           <span class="contact-label">ADDRESS</span>
-          <strong>Changjo Hall (창조관) 168</strong>
+          <strong>1 Yeonsedae-gil, Heungeop-myeon, Wonju-si, Gangwon-do, 26493, Republic of Korea</strong>
         </div>
   
       </div>
