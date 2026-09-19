@@ -199,7 +199,7 @@ permalink: /about/
 
       <!-- Tistory -->
       <a class="contact-profile"
-         href="https://https://kso323.tistory.com/"
+         href="https://kso323.tistory.com/"
          target="_blank"
          rel="noopener noreferrer">
 
