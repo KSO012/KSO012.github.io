@@ -36,6 +36,27 @@ permalink: /contact/
 
   </section>
 
+  <!-- Location -->
+  <section class="journal-section">
+  
+    <div class="journal-section-header">
+      <h2>Location</h2>
+    </div>
+  
+    <div class="contact-item">
+  
+      <div class="contact-icon">⌖</div>
+  
+      <div class="contact-details">
+        <span class="contact-label">LOCATION</span>
+        <strong>Wonju, South Korea</strong>
+        <p>Yonsei University, Mirae Campus</p>
+      </div>
+  
+    </div>
+  
+  </section>
+
   <!-- Academic Profiles -->
   <section class="journal-section">
 
