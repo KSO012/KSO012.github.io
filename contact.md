@@ -13,13 +13,14 @@ permalink: /contact/
 
 <div class="journal-page contact-page">
 
-  <!-- Email -->
+  <!-- Contact Information -->
   <section class="journal-section">
 
     <div class="journal-section-header">
       <h2>Contact Information</h2>
     </div>
 
+    <-- Email -->
     <a class="contact-item"
        href="mailto:kso323@yonsei.ac.kr">
 
@@ -34,27 +35,20 @@ permalink: /contact/
 
     </a>
 
-  </section>
-
-  <!-- Location -->
-  <section class="journal-section">
-  
-    <div class="journal-section-header">
-      <h2>Location</h2>
-    </div>
-  
+    <!-- Location -->
     <div class="contact-item">
-  
+
       <div class="contact-icon">⌖</div>
-  
+
       <div class="contact-details">
         <span class="contact-label">LOCATION</span>
         <strong>Wonju, South Korea</strong>
         <p>Yonsei University, Mirae Campus</p>
       </div>
-  
+
     </div>
-  
+
+
   </section>
 
   <!-- Academic Profiles -->
