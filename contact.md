@@ -17,7 +17,7 @@ permalink: /contact/
   <section class="journal-section">
 
     <div class="journal-section-header">
-      <h2>Email</h2>
+      <h2>Contact Information</h2>
     </div>
 
     <a class="contact-item"
