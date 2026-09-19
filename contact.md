@@ -45,7 +45,7 @@ permalink: /contact/
       
       </a>
   
-      <!-- Location -->
+      <!-- Address -->
       <div class="contact-item">
   
         <div class="contact-icon">
@@ -59,7 +59,7 @@ permalink: /contact/
         </div>
   
         <div class="contact-details">
-          <span class="contact-label">LOCATION</span>
+          <span class="contact-label">ADDRESS</span>
           <strong>Changjo Hall (창조관) 168</strong>
         </div>
   
