@@ -136,7 +136,7 @@ permalink: /research/
           and process conformance in clinical decision-making.
         </p>
   
-        <div class="research-tags">
+        <div class="journal-badges">
           <span>LLM</span>
           <span>Uncertainty</span>
           <span>Process Mining</span>
@@ -159,7 +159,7 @@ permalink: /research/
           for next activity prediction.
         </p>
   
-        <div class="research-tags">
+        <div class="journal-badges">
           <span>Process Mining</span>
           <span>Machine Learning</span>
         </div>
