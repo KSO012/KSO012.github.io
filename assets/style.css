@@ -150,24 +150,29 @@
   white-space: nowrap;
 }
 
-.research-status {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 10px;
-  border-radius: 999px;
+.research-status,
+.research-tags span {
+  border-radius: 4px;
+  padding: 6px 10px;
   font-size: 12px;
-  line-height: 1;
-  font-weight: 500;
+  line-height: 1.4;
 }
 
+/* 진행 상태별 색상 */
 .research-status.ongoing {
-  background: #dff1df;
-  color: #4d8b57;
+  background: #e8f4e8;
+  color: #377a47;
 }
 
 .research-status.completed {
   background: #eeeeee;
   color: #666666;
+}
+
+/* 연구 키워드 */
+.research-tags span {
+  background: #eaf0f2;
+  color: #294b5b;
 }
 
 .research-project h3 {
