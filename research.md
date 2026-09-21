@@ -125,7 +125,7 @@ permalink: /research/
       <article class="research-project">
   
         <div class="research-project-top">
-          <span class="research-status ongoing">Ongoing</span>
+          <span class="cv-status current">Ongoing</span>
           <span class="research-project-number">01 / RESEARCH</span>
         </div>
   
@@ -148,7 +148,7 @@ permalink: /research/
       <article class="research-project">
   
         <div class="research-project-top">
-          <span class="research-status completed">Completed</span>
+          <span class="cv-status completed">Completed</span>
           <span class="research-project-number">02 / RESEARCH</span>
         </div>
   
