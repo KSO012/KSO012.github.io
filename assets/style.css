@@ -333,6 +333,22 @@
 
 }
 
+/* Research - 배지 높이 및 스타일 통일 */
+.journal-page .research-project .research-status,
+.journal-page .research-project .research-tags > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  height: 34px;
+  padding: 0 11px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 
 /* =========================================
    JOURNAL PAGE
