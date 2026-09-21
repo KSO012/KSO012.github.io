@@ -4,5 +4,228 @@ title: Research
 nav: research
 permalink: /research/
 ---
-<section class="page-intro"><div class="eyebrow">RESEARCH</div><h1>Research</h1><p>연구 주제와 프로젝트를 정리할 페이지입니다.</p></section>
-<div class="project-card"><span class="eyebrow">COMING SOON</span><h2>연구 내용 준비 중</h2><p>연구 분야와 진행한 작업을 이곳에 추가할 예정입니다.</p></div>
+
+<!-- Common Page Header -->
+<section class="page-intro">
+  <div class="eyebrow">RESEARCH</div>
+  <h1>Research</h1>
+</section>
+
+<div class="journal-page">
+
+  <!-- =================================
+       RESEARCH INTERESTS
+  ================================= -->
+
+  <section class="journal-section">
+
+    <div class="journal-section-header">
+      <h2>Research Interests</h2>
+    </div>
+
+    <p class="research-intro">
+      My research focuses on process mining, large language
+      models, and their applications in healthcare.
+    </p>
+
+    <div class="research-interests">
+
+      <!-- Process Mining -->
+      <div class="research-interest">
+
+        <div class="research-interest-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 3v12"/>
+            <circle cx="6" cy="3" r="2"/>
+            <circle cx="6" cy="18" r="3"/>
+            <circle cx="18" cy="6" r="3"/>
+            <path d="M6 9a6 6 0 0 0 6-6h3"/>
+          </svg>
+        </div>
+
+        <h3>Process Mining</h3>
+
+        <p>
+          Predictive process monitoring, trace encoding,
+          and process conformance.
+        </p>
+
+      </div>
+
+
+      <!-- Large Language Models -->
+      <div class="research-interest">
+
+        <div class="research-interest-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 18V5a3 3 0 0 0-5.8-1.1A4 4 0 0 0 4 11
+                     a4 4 0 0 0 1 6 3 3 0 0 0 5 3"/>
+            <path d="M12 18V5a3 3 0 0 1 5.8-1.1A4 4 0 0 1 20 11
+                     a4 4 0 0 1-1 6 3 3 0 0 1-5 3"/>
+            <path d="M8 9l4 3 4-3M8 15l4-3 4 3"/>
+          </svg>
+        </div>
+
+        <h3>Large Language Models</h3>
+
+        <p>
+          Uncertainty estimation, reasoning,
+          and reliability.
+        </p>
+
+      </div>
+
+
+      <!-- Healthcare AI -->
+      <div class="research-interest">
+
+        <div class="research-interest-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor"
+               stroke-width="1.8" stroke-linecap="round"
+               stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7
+                     l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21
+                     l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>
+            <path d="M3.5 12H8l2-3 4 6 2-3h4.5"/>
+          </svg>
+        </div>
+
+        <h3>Healthcare AI</h3>
+
+        <p>
+          Clinical reasoning, decision support,
+          and data-driven healthcare applications.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       RESEARCH PROJECTS
+  ================================= -->
+
+  <section class="journal-section">
+
+    <div class="journal-section-header">
+      <h2>Research Projects</h2>
+    </div>
+
+    <div class="research-projects">
+
+      <!-- Project 1 -->
+      <article class="research-project">
+
+        <div class="research-project-label">
+          01 / SELECTED RESEARCH
+        </div>
+
+        <h3>
+          Uncertainty Meets Conformance:
+          A Process Mining-based Multi-Objective Evaluation
+          for Clinical Reasoning using LLMs
+        </h3>
+
+        <p>
+          Evaluating LLM-based clinical reasoning
+          through uncertainty estimation,
+          process conformance, and
+          multi-objective analysis.
+        </p>
+
+        <div class="research-tags">
+          <span>LLM</span>
+          <span>Uncertainty</span>
+          <span>Process Mining</span>
+        </div>
+
+        <a class="research-project-link"
+           href="{{ '/conference/' | relative_url }}">
+          Related conference paper ↗
+        </a>
+
+      </article>
+
+
+      <!-- Project 2 -->
+      <article class="research-project">
+
+        <div class="research-project-label">
+          02 / SELECTED RESEARCH
+        </div>
+
+        <h3>
+          A Comparative Analysis of Trace Encoding Methods
+          for Next Activity Predictive Process Monitoring
+        </h3>
+
+        <p>
+          Comparing trace encoding methods for
+          next activity prediction across
+          different process event logs
+          and machine learning classifiers.
+        </p>
+
+        <div class="research-tags">
+          <span>Process Mining</span>
+          <span>Machine Learning</span>
+          <span>Predictive Monitoring</span>
+        </div>
+
+        <a class="research-project-link"
+           href="{{ '/conference/' | relative_url }}">
+          Related conference paper ↗
+        </a>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- =================================
+       RESEARCH OUTPUTS
+  ================================= -->
+
+  <section class="journal-section">
+
+    <div class="journal-section-header">
+      <h2>Research Outputs</h2>
+    </div>
+
+    <div class="research-outputs">
+
+      <!-- Journal -->
+      <a class="research-output"
+         href="{{ '/journal/' | relative_url }}">
+
+        <span>Journal Publications</span>
+        <span class="research-output-arrow">↗</span>
+
+      </a>
+
+      <!-- Conference -->
+      <a class="research-output"
+         href="{{ '/conference/' | relative_url }}">
+
+        <span>Conference Publications</span>
+        <span class="research-output-arrow">↗</span>
+
+      </a>
+
+    </div>
+
+  </section>
+
+</div>
