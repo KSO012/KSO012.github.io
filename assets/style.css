@@ -116,79 +116,92 @@
    RESEARCH PROJECTS
 ========================================= */
 
+/* Research Projects */
+
+.research-projects {
+  margin-top: 4px;
+}
+
 .research-project {
-  padding: 30px 0 35px;
+  padding: 22px 0 24px;
   border-bottom: 1px solid #e1e6e5;
 }
 
 .research-project:first-child {
-  padding-top: 5px;
+  padding-top: 18px;
 }
 
 .research-project:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+  border-bottom: 1px solid #e1e6e5;
 }
 
-.research-project-label {
-  margin-bottom: 20px;
-  color: #527d7b;
+.research-project-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.research-project-number {
+  color: #8a97a0;
   font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+.research-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.research-status.ongoing {
+  background: #dff1df;
+  color: #4d8b57;
+}
+
+.research-status.completed {
+  background: #eeeeee;
+  color: #666666;
 }
 
 .research-project h3 {
-  margin: 0 0 18px;
-  color: #263f4b;
-  font-family: Georgia, serif;
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1.5;
+  margin: 0 0 12px;
+  color: #111111;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .research-project p {
-  margin: 0 0 22px;
-  color: #718086;
+  margin: 0 0 14px;
+  color: #6d7680;
   font-size: 15px;
   line-height: 1.8;
 }
-
-/* Research Tags */
 
 .research-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 25px;
 }
 
 .research-tags span {
-  padding: 6px 10px;
-  border-radius: 4px;
-  background: #eaf0f2;
-  color: #294b5b;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f1f1f1;
+  color: #4b5560;
   font-size: 12px;
-  font-weight: 600;
+  line-height: 1.2;
 }
-
-/* Project Links */
-
-.research-project-link {
-  display: inline-block;
-  color: #294b5b;
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.research-project-link:hover {
-  color: #527d7b;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-}
-
 
 /* =========================================
    RESEARCH OUTPUTS
