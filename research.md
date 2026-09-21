@@ -70,7 +70,7 @@ permalink: /research/
           </svg>
         </div>
 
-        <h3>Machine Learning /<br> Large Language Models</h3>
+        <h3>Machine Learning ·<br> Large Language Models</h3>
 
         <p>
           Uncertainty estimation, reasoning,
