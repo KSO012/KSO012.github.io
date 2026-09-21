@@ -13,6 +13,16 @@
   flex-shrink: 0;
 }
 
+/* Research Projects - 키워드 배지 형태 및 굵기 통일 */
+.journal-page .research-project .research-tags > span {
+  border-radius: 4px !important;
+  font-weight: 700 !important;
+}
+
+/* 진행 상태 배지의 글자 굵기 */
+.journal-page .research-project .research-status {
+  font-weight: 700;
+}
 
 
 /* =========================================
