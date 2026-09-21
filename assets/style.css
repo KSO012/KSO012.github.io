@@ -63,6 +63,249 @@
 
 
 /* =========================================
+   RESEARCH PAGE
+========================================= */
+
+/* Research Interests */
+
+.research-intro {
+  margin: 0 0 35px;
+  color: #718086;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.research-interests {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.research-interest {
+  min-width: 0;
+  padding: 28px 4px 15px;
+  border-top: 2px solid #294b5b;
+}
+
+.research-interest-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+  color: #294b5b;
+}
+
+.research-interest h3 {
+  margin: 0 0 15px;
+  color: #263f4b;
+  font-family: Georgia, serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.research-interest p {
+  margin: 0;
+  color: #718086;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   RESEARCH PROJECTS
+========================================= */
+
+.research-project {
+  padding: 30px 0 35px;
+  border-bottom: 1px solid #e1e6e5;
+}
+
+.research-project:first-child {
+  padding-top: 5px;
+}
+
+.research-project:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.research-project-label {
+  margin-bottom: 20px;
+  color: #527d7b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+}
+
+.research-project h3 {
+  margin: 0 0 18px;
+  color: #263f4b;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.research-project p {
+  margin: 0 0 22px;
+  color: #718086;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Research Tags */
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.research-tags span {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #eaf0f2;
+  color: #294b5b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Project Links */
+
+.research-project-link {
+  display: inline-block;
+  color: #294b5b;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.research-project-link:hover {
+  color: #527d7b;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+
+/* =========================================
+   RESEARCH OUTPUTS
+========================================= */
+
+.research-output {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 25px 0;
+
+  border-bottom: 1px solid #e1e6e5;
+
+  color: #263f4b;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: color 0.2s ease;
+}
+
+.research-output:first-child {
+  padding-top: 5px;
+}
+
+.research-output:last-child {
+  border-bottom: none;
+}
+
+.research-output:hover {
+  color: #527d7b;
+}
+
+.research-output-arrow {
+  color: #849092;
+  font-size: 22px;
+  font-weight: 400;
+  transition: transform 0.2s ease;
+}
+
+.research-output:hover .research-output-arrow {
+  transform: translate(3px, -3px);
+}
+
+/* Keyboard navigation */
+
+.research-project-link:focus-visible,
+.research-output:focus-visible {
+  outline: 2px solid #416a79;
+  outline-offset: 4px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+/* Tablet */
+
+@media (max-width: 980px) {
+
+  .research-interests {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 640px) {
+
+  .research-intro {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .research-interests {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .research-interest {
+    padding: 22px 4px 10px;
+  }
+
+  .research-interest h3 {
+    font-size: 22px;
+  }
+
+  .research-project h3 {
+    font-size: 21px;
+  }
+
+  .research-project p {
+    font-size: 14px;
+  }
+
+  .research-output {
+    font-size: 14px;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .research-project-link,
+  .research-output,
+  .research-output-arrow {
+    transition: none;
+  }
+
+}
+
+
+/* =========================================
    JOURNAL PAGE
 ========================================= */
 
