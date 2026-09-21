@@ -24,8 +24,7 @@ permalink: /research/
     </div>
 
     <p class="research-intro">
-      My research focuses on process mining, large language
-      models, and their applications in healthcare.
+      My research focuses on process mining, machine learning, large language models, and their applications.
     </p>
 
     <div class="research-interests">
@@ -49,8 +48,7 @@ permalink: /research/
         <h3>Process Mining</h3>
 
         <p>
-          Predictive process monitoring, trace encoding,
-          and process conformance.
+          process model discovery, predictive process monitoring, trace encoding, and process conformance checking.
         </p>
 
       </div>
