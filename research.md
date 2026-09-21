@@ -7,7 +7,7 @@ permalink: /research/
 
 <!-- Common Page Header -->
 <section class="page-intro">
-  <div class="eyebrow">RESEARCH</div>
+  <div class="eyebrow">RESEARCH & PROJECT</div>
   <h1>Research</h1>
 </section>
 
