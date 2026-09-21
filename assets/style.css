@@ -288,6 +288,12 @@
   margin-bottom: 0;
 }
 
+/* Research Projects의 Completed 배지만 변경 */
+.research-project .research-project-top .cv-status.completed {
+  color: #2555a4;
+  background: #e6f0ff;
+}
+
 
 /* =========================================
    JOURNAL PAGE
