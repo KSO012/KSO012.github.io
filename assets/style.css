@@ -13,18 +13,6 @@
   flex-shrink: 0;
 }
 
-/* Research Projects - 키워드 배지 형태 및 굵기 통일 */
-.journal-page .research-project .research-tags > span {
-  border-radius: 4px !important;
-  font-weight: 700 !important;
-}
-
-/* 진행 상태 배지의 글자 굵기 */
-.journal-page .research-project .research-status {
-  font-weight: 700;
-}
-
-
 /* =========================================
    MAIN PAGE
 ========================================= */
@@ -160,32 +148,6 @@
   white-space: nowrap;
 }
 
-.research-status,
-.research-tags span {
-  border-radius: 4px;
-  padding: 6px 10px;
-  font-size: 12px;
-  line-height: 1.4;
-  font-weight: 700;
-}
-
-/* 진행 상태별 색상 */
-.research-status.ongoing {
-  background: #e8f4e8;
-  color: #377a47;
-}
-
-.research-status.completed {
-  background: #eeeeee;
-  color: #666666;
-}
-
-/* 연구 키워드 */
-.research-tags span {
-  background: #eaf0f2;
-  color: #294b5b;
-}
-
 .research-project h3 {
   margin: 0 0 12px;
   color: #111111;
@@ -200,23 +162,6 @@
   color: #6d7680;
   font-size: 15px;
   line-height: 1.8;
-}
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.research-tags span {
-  display: inline-flex;
-  align-items: center;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: #f1f1f1;
-  color: #4b5560;
-  font-size: 12px;
-  line-height: 1.2;
 }
 
 /* =========================================
@@ -333,20 +278,14 @@
 
 }
 
-/* Research - 배지 높이 및 스타일 통일 */
-.journal-page .research-project .research-status,
-.journal-page .research-project .research-tags > span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+/* Research - 기존 페이지 배지 재사용 시 간격 보정 */
 
-  height: 34px;
-  padding: 0 11px;
-  border-radius: 4px;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1;
+.research-project-top .cv-status {
+  margin-bottom: 0;
+}
+
+.research-project .journal-badges {
+  margin-bottom: 0;
 }
 
 
