@@ -114,81 +114,60 @@ permalink: /research/
   ================================= -->
 
   <section class="journal-section">
-
+  
     <div class="journal-section-header">
       <h2>Research Projects</h2>
     </div>
-
+  
     <div class="research-projects">
-
+  
       <!-- Project 1 -->
       <article class="research-project">
-
-        <div class="research-project-label">
-          01 / SELECTED RESEARCH
+  
+        <div class="research-project-top">
+          <span class="research-status ongoing">Ongoing</span>
+          <span class="research-project-number">01 / RESEARCH</span>
         </div>
-
-        <h3>
-          Uncertainty Meets Conformance:
-          A Process Mining-based Multi-Objective Evaluation
-          for Clinical Reasoning using LLMs
-        </h3>
-
+  
+        <h3>Uncertainty-Aware Clinical Reasoning with LLMs</h3>
+  
         <p>
-          Evaluating LLM-based clinical reasoning
-          through uncertainty estimation,
-          process conformance, and
-          multi-objective analysis.
+          Investigating uncertainty, reasoning consistency,
+          and process conformance in clinical decision-making.
         </p>
-
+  
         <div class="research-tags">
           <span>LLM</span>
           <span>Uncertainty</span>
           <span>Process Mining</span>
         </div>
-
-        <a class="research-project-link"
-           href="{{ '/conference/' | relative_url }}">
-          Related conference paper ↗
-        </a>
-
+  
       </article>
-
-
+  
       <!-- Project 2 -->
       <article class="research-project">
-
-        <div class="research-project-label">
-          02 / SELECTED RESEARCH
+  
+        <div class="research-project-top">
+          <span class="research-status completed">Completed</span>
+          <span class="research-project-number">02 / RESEARCH</span>
         </div>
-
-        <h3>
-          A Comparative Analysis of Trace Encoding Methods
-          for Next Activity Predictive Process Monitoring
-        </h3>
-
+  
+        <h3>Trace Encoding for Predictive Process Monitoring</h3>
+  
         <p>
-          Comparing trace encoding methods for
-          next activity prediction across
-          different process event logs
-          and machine learning classifiers.
+          A comparative investigation of trace encoding methods
+          for next activity prediction.
         </p>
-
+  
         <div class="research-tags">
           <span>Process Mining</span>
           <span>Machine Learning</span>
-          <span>Predictive Monitoring</span>
         </div>
-
-        <a class="research-project-link"
-           href="{{ '/conference/' | relative_url }}">
-          Related conference paper ↗
-        </a>
-
+  
       </article>
-
+  
     </div>
-
+  
   </section>
 
 
