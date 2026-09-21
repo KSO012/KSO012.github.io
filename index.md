@@ -18,7 +18,7 @@ permalink: /
   </h1>
 
   <p class="lead">
-    Turning what I learn into what I build, and Recording what I build.
+    Build what I learn. Record what I build.
   </p>
 
 </section>
