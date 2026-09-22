@@ -25,7 +25,7 @@ permalink: /research/
 
     <p class="research-intro">
       My research focuses on process mining, machine learning, large language models, and their applications.
-      <p 작업중입니다 </p>
+      <p 페이지 작업중입니다 </p>
     </p>
 
     <div class="research-interests">
