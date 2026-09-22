@@ -9,6 +9,7 @@ permalink: /research/
 <section class="page-intro">
   <div class="eyebrow">RESEARCH &amp; PROJECT</div>
   <h1>Research</h1>
+  <p>페이지 작업중입니다</p>
 </section>
 
 <div class="journal-page">
@@ -25,7 +26,6 @@ permalink: /research/
 
     <p class="research-intro">
       My research focuses on process mining, machine learning, large language models, and their applications.
-      <p 페이지 작업중입니다 </p>
     </p>
 
     <div class="research-interests">
